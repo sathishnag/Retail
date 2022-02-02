@@ -10,7 +10,7 @@ public class ProductController {
 	
 	@GetMapping("getProdcts")
 	public ResponseEntity<String> getAllProsucts () {
-		return new ResponseEntity<>("test"), HttpStatus.OK);
+		return new ResponseEntity<>("test", HttpStatus.OK);
 	}
 	
 }
