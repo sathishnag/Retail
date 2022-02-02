@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ProductController {
 	
-	@GetMapping("getProdcts")
+	@GetMapping(value="getProdcts", produces = "application/json")
 	public String getAllProsucts () {
 		return "welcome to tsumitomo";
 	}
