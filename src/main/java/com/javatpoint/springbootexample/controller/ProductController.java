@@ -8,7 +8,7 @@ public class ProductController {
 	
 	@GetMapping(value="getProdcts", produces = "application/json")
 	public String getAllProsucts () {
-		return "welcome to tsumitomo";
+		return "welcome";
 	}
 	
 }
